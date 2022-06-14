@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario responsivo</title>
+</head>
+
+<!-----TIVE UM PROBLEMA COM O BACKGROUND-IMAGE NAO ESTAR FUNCIONANDO, PARA AGILIZAR COLOQUEI INLINE----->
+<body style="background-image: url(img/background.png);">
+    <!-----Imagem---->
+    <div class="box">
+
+        <div class="img-box">
+            <img src="img/img-formulario.png">
+        </div>
+
+        <div class="form-box">
+            <h2>Criar conta</h2>
+
+            <p>Já é um membro? <a href="#">Login</a> </p>
+
+            <form action="#">
+
+
+                <div class="input-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                </div>
+
+
+
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="Digite seu telefone" required>
+                </div>
+
+
+                <div class="input-group w50">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="input-group w50">
+                    <label for="confirmar-senha">Confirmar senha</label>
+                    <input type="password" id="confirmar-senha" placeholder="Confirme sua senha" required>
+                </div>
+
+                <div class="input-group">
+                    <button> Cadastrar </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
